@@ -6,6 +6,8 @@ import App from './App.jsx'
 import AboutMe from './pages/AboutMe.jsx';
 import Contact from './pages/Contact.jsx';
 
+import "./styles/index.css"
+
 const router = createBrowserRouter([
   {
     path: "/",
