@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Navigation() {
   return (
     <nav>
@@ -8,16 +10,10 @@ function Navigation() {
       </ul>
       <ul>
         <li>
-          <a href="#">About Me</a>
+          <Link to="/about">About Me</Link>
         </li>
         <li>
-          <a href="#">Portfolio</a>
-        </li>
-        <li>
-          <a href="#">Contact</a>
-        </li>
-        <li>
-          <a href="#">Resume</a>
+          <Link to="/contact">Contact</Link>
         </li>
       </ul>
     </nav>
