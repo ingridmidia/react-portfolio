@@ -8,13 +8,13 @@ import "./styles/App.css";
 
 function App() {
   return (
-    <>
+    <div id="page-container">
       <Header />
       <main className="container" id="main">
         <Outlet />
       </main>
       <Footer />
-    </>
+    </div>
   );
 }
 

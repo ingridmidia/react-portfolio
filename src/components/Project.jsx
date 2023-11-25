@@ -12,6 +12,7 @@ function Project(props) {
         </a>
       </div>
       <img src={props.photo} alt="project" className="project-photo" />
+      <hr />
     </>
   );
 }
