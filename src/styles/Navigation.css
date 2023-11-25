@@ -1,6 +1,7 @@
-nav {
+header {
+  width: 100%;
   background-color: #ded1f8;
-  padding: 2rem;
+  padding: 0 2rem 0 2rem;
 }
 
 strong {
