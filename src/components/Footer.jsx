@@ -11,16 +11,16 @@ function Footer() {
         href="https://www.linkedin.com/in/ingrid-miranda-979b72b2/"
         target="_blank"
       >
-        <img src={linkedinLogo} alt="linkedin" />
+        <img src={linkedinLogo} alt="linkedin" className="logo" />
       </a>
       <a href="https://github.com/ingridmidia" target="_blank">
-        <img src={githubLogo} alt="github" />
+        <img src={githubLogo} alt="github" className="logo" />
       </a>
       <a
         href="https://stackoverflow.com/?newreg=cfd74ad8bb384f16a80474dfe751d943"
         target="_blank"
       >
-        <img src={stackoverflowLogo} alt="stackoverflow" />
+        <img src={stackoverflowLogo} alt="stackoverflow" className="logo" />
       </a>
     </footer>
   );

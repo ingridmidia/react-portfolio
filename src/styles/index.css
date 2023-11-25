@@ -5,7 +5,7 @@
 [data-theme="light"],
 :root:not([data-theme="dark"]) {
   --primary: #5e35b1;
-  --primary-hover: #512da8;
+  --primary-hover: rgba(255, 255, 255);
   --primary-focus: rgba(94, 53, 177, 0.125);
   --primary-inverse: #FFF;
 }
@@ -15,7 +15,7 @@
 @media only screen and (prefers-color-scheme: dark) {
   :root:not([data-theme]) {
     --primary: #5e35b1;
-    --primary-hover: #673ab7;
+    --primary-hover: rgba(255, 255, 255);
     --primary-focus: rgba(94, 53, 177, 0.25);
     --primary-inverse: #FFF;
   }
@@ -25,7 +25,7 @@
 /* Enabled if forced with data-theme="dark" */
 [data-theme="dark"] {
   --primary: #5e35b1;
-  --primary-hover: #673ab7;
+  --primary-hover: rgba(255, 255, 255);
   --primary-focus: rgba(94, 53, 177, 0.25);
   --primary-inverse: #FFF;
 }

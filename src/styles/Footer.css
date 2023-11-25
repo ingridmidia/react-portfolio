@@ -8,9 +8,8 @@ footer {
    text-align: center;
 }
 
-img{
-   max-width: 75px;
-   max-height: 75px;
-   padding: 15px;
-   margin-top: 5px;
+.logo{
+   max-width: 4rem;
+   max-height: 4rem;
+   padding: 0.3rem 1rem 0 1rem;
 }

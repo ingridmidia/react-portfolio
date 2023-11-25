@@ -1,0 +1,11 @@
+#photo{
+    max-width: 15rem;
+    max-height: 15rem;
+    margin-bottom: 1rem;
+}
+
+#about{
+    display: flex;
+    align-items: center;
+    text-align:justify;
+}
