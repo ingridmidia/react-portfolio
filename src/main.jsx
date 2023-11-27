@@ -7,6 +7,7 @@ import AboutMe from './pages/AboutMe.jsx';
 import Contact from './pages/Contact.jsx';
 import Portfolio from "./pages/Portfolio.jsx";
 import Resume from "./pages/Resume.jsx";
+import Error from "./pages/Error.jsx";
 
 import "./styles/index.css";
 
