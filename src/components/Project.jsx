@@ -1,18 +1,35 @@
-import "../styles/Project.css";
-
 function Project(props) {
   return (
     <>
-      <div className="project-container">
-        <a href={props.page} target="_blank">
-          <h3 className="project-name">{props.name}</h3>
-        </a>
-        <a href={props.repo} target="_blank">
-          <img src={props.github} alt="github" className="github" />
-        </a>
+      <div className="max-w-xl overflow-hidden bg-white rounded shadow-lg bt-3  mb-5 mx-auto basis-1/2 flex-1">
+        <img
+          className="w-full h-57 object-cover"
+          src={props.photo}
+          alt="Card Image"
+        />
+        <div className="px-6 py-4">
+          <div className="font-bold text-2xl mb-2">{props.name}</div>
+          <p className="text-lg">
+            {props.description} You can access the live page{" "}
+            <a
+              href={props.page}
+              target="_blank"
+              className="hover:bg-purple-100 text-blue-500 underline"
+            >
+              here
+            </a>{" "}
+            and check the repository on{" "}
+            <a
+              href={props.repo}
+              target="_blank"
+              className="hover:bg-purple-100 text-blue-500 underline"
+            >
+              Github
+            </a>
+            .
+          </p>
+        </div>
       </div>
-      <img src={props.photo} alt="project" className="project-photo" />
-      <hr />
     </>
   );
 }
