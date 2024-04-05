@@ -1,12 +1,14 @@
 import photo from "./assets/portfoliopicture.png";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import Project from "./components/Project";
+import PrivateProject from "./components/PrivateProject";
 import techBlog from "./assets/techblog.png";
 import basil from "./assets/basil.png";
 import weather from "./assets/weather.png";
 import quiz from "./assets/quiz.png";
 import noteTaker from "./assets/notetaker.png";
 import shelter from "./assets/shelter.png";
+import ubx from "./assets/ubx.png";
 
 function App() {
   return (
@@ -45,7 +47,14 @@ function App() {
           <h2 className="text-4xl py-2 text-purple-800 font-medium text-center mb-3">
             Projects
           </h2>
-          <div className="flex flex-col gap-1 py-10 lg:flex-row lg:flex-wrap">
+          <div className="md:grid grid-cols-2 gap-6 p-6 xl:grid-cols-3">
+            <PrivateProject
+              photo={ubx}
+              name="UBX Engenharia"
+              description="A responsive single page application built with Tailwind and React for a Brazilian Engineering Company."
+              page="https://ingrid-note-taker-12eb8ba2343b.herokuapp.com/notes"
+              repo="https://github.com/ingridmidia/note-taker"
+            />
             <Project
               photo={basil}
               name="Basil Budget Tracker"

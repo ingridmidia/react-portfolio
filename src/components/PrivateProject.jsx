@@ -1,4 +1,4 @@
-function Project(props) {
+function PrivateProject(props) {
   return (
     <>
       <div className="max-w-xl overflow-hidden bg-white rounded shadow-lg bt-3 mb-5 mx-4 md:mx-auto basis-1/2 flex-1">
@@ -16,17 +16,8 @@ function Project(props) {
               target="_blank"
               className="hover:bg-purple-100 text-blue-500 underline"
             >
-              here
-            </a>{" "}
-            and check the repository on{" "}
-            <a
-              href={props.repo}
-              target="_blank"
-              className="hover:bg-purple-100 text-blue-500 underline"
-            >
-              Github
+              here.
             </a>
-            .
           </p>
         </div>
       </div>
@@ -34,4 +25,4 @@ function Project(props) {
   );
 }
 
-export default Project;
+export default PrivateProject;
