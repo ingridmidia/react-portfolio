@@ -9,6 +9,7 @@ import quiz from "./assets/quiz.png";
 import noteTaker from "./assets/notetaker.png";
 import shelter from "./assets/shelter.png";
 import ubx from "./assets/ubx.png";
+import recipe from "./assets/recipe.png";
 
 function App() {
   return (
@@ -80,7 +81,7 @@ function App() {
               photo={shelter}
               name="Cat Shelter"
               description="Full stack application that allow shelter staff to manage the cats available for adoption."
-              page="https://spooky-eyeballs-23991-f2fad42ef3d2.herokuapp.com/"
+              page="https://cat-shelter-8ba255716a84.herokuapp.com/"
               repo="https://github.com/ingridmidia/cat-shelter"
             />
             <Project
@@ -89,6 +90,13 @@ function App() {
               description="A weather dashboard allows users to search for the 5-day weather outlook for multiple cities."
               page="https://ingridmidia.github.io/weather-dashboard/"
               repo="https://github.com/ingridmidia/weather-dashboard"
+            />
+            <Project
+              photo={recipe}
+              name="What's For Dinner"
+              description="Web app that helps busy coding bootcamp students (among others) search for recipes featuring a user-provided ingredient."
+              page="https://ingridmidia.github.io/recipe-finder/"
+              repo="https://github.com/ingridmidia/recipe-finder"
             />
             <Project
               photo={noteTaker}
