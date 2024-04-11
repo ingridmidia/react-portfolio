@@ -53,8 +53,7 @@ function App() {
               photo={ubx}
               name="UBX Engenharia"
               description="A responsive single page application built with Tailwind and React for a Brazilian Engineering Company."
-              page="https://ingrid-note-taker-12eb8ba2343b.herokuapp.com/notes"
-              repo="https://github.com/ingridmidia/note-taker"
+              page="https://ubxengenharia.netlify.app/"
             />
             <Project
               photo={basil}
