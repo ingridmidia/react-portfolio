@@ -63,6 +63,20 @@ function App() {
               repo="https://github.com/ingridmidia/mern-budget-app"
             />
             <Project
+              photo={shelter}
+              name="Cat Shelter"
+              description="Full stack application that allow shelter staff to manage the cats available for adoption."
+              page="https://cat-shelter-8ba255716a84.herokuapp.com/"
+              repo="https://github.com/ingridmidia/cat-shelter"
+            />
+            <Project
+              photo={recipe}
+              name="What's For Dinner"
+              description="Web app that helps busy coding bootcamp students (among others) search for recipes featuring a user-provided ingredient."
+              page="https://ingridmidia.github.io/recipe-finder/"
+              repo="https://github.com/ingridmidia/recipe-finder"
+            />
+            <Project
               photo={techBlog}
               name="The Tech Blog"
               description="A CMS-style blog, where developers can publish their blog posts and comment on other developers’ posts as well."
@@ -77,25 +91,11 @@ function App() {
               repo="https://github.com/ingridmidia/javascript-quiz"
             />
             <Project
-              photo={shelter}
-              name="Cat Shelter"
-              description="Full stack application that allow shelter staff to manage the cats available for adoption."
-              page="https://cat-shelter-8ba255716a84.herokuapp.com/"
-              repo="https://github.com/ingridmidia/cat-shelter"
-            />
-            <Project
               photo={weather}
               name="Weather Dashboard"
               description="A weather dashboard allows users to search for the 5-day weather outlook for multiple cities."
               page="https://ingridmidia.github.io/weather-dashboard/"
               repo="https://github.com/ingridmidia/weather-dashboard"
-            />
-            <Project
-              photo={recipe}
-              name="What's For Dinner"
-              description="Web app that helps busy coding bootcamp students (among others) search for recipes featuring a user-provided ingredient."
-              page="https://ingridmidia.github.io/recipe-finder/"
-              repo="https://github.com/ingridmidia/recipe-finder"
             />
             <Project
               photo={noteTaker}
