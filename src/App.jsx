@@ -64,14 +64,14 @@ function App() {
             />
             <Project
               photo={shelter}
-              name="Cat Shelter"
+              name="Amazing Cats"
               description="Full stack application that allow shelter staff to manage the cats available for adoption."
               page="https://cat-shelter-8ba255716a84.herokuapp.com/"
               repo="https://github.com/ingridmidia/cat-shelter"
             />
             <Project
               photo={recipe}
-              name="What's For Dinner"
+              name="What's For Dinner?"
               description="Web app that helps busy coding bootcamp students (among others) search for recipes featuring a user-provided ingredient."
               page="https://ingridmidia.github.io/recipe-finder/"
               repo="https://github.com/ingridmidia/recipe-finder"
