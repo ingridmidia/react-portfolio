@@ -4,7 +4,7 @@ import Projects from "./components/Projects";
 function App() {
   return (
     <>
-      <div className="min-h-screen bg-neutral-50">
+      <div className="min-h-screen bg-neutral-100">
         <Me />
         <Projects />
       </div>
