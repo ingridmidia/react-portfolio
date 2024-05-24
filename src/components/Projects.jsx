@@ -7,6 +7,7 @@ import noteTaker from "../assets/notetaker.png";
 import shelter from "../assets/shelter.png";
 import ubx from "../assets/ubx.png";
 import recipe from "../assets/recipe.png";
+import littleLemon from "../assets/little-lemon.png";
 
 function Projects() {
   return (
@@ -41,6 +42,13 @@ function Projects() {
         page="https://ingridmidia.github.io/recipe-finder/"
         repo="https://github.com/ingridmidia/recipe-finder"
         skills="HTML, CSS, Bulma, JavaScript and 3rd Party API’s"
+      />
+      <Project
+        photo={littleLemon}
+        name="Little Lemon Restaurant App"
+        description="A React Native Expo app that offers seamless user registration and menu browsing functionalities."
+        repo="https://github.com/ingridmidia/little-lemon-react-native"
+        skills="React Native, Expo, AsyncStorage and SQLite"
       />
       <Project
         photo={techBlog}

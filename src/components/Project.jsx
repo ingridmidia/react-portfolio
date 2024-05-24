@@ -18,13 +18,15 @@ function Project(props) {
             <span className="font-bold">Skills:</span> {props.skills}
           </p>
           <div className="flex justify-around pt-4">
-            <a
-              href={props.page}
-              target="_blank"
-              className="bg-purple-800 hover:bg-purple-400 text-white font-bold py-2 px-4 rounded mt-4 inline-block"
-            >
-              Visit Site
-            </a>
+            {props.page && (
+              <a
+                href={props.page}
+                target="_blank"
+                className="bg-purple-800 hover:bg-purple-400 text-white font-bold py-2 px-4 rounded mt-4 inline-block"
+              >
+                Visit Site
+              </a>
+            )}
             {props.repo && (
               <a
                 href={props.repo}
