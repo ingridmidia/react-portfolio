@@ -16,7 +16,7 @@ function Projects() {
         photo={ubx}
         name="UBX Engenharia"
         description="A responsive single-page application built with Tailwind and React for UBX Engenharia, a Brazilian Engineering Company aiming to increase its digital presence."
-        page="https://ubxengenharia.netlify.app/"
+        page="https://ubxengenharia.com/"
         skills="React and Tailwind"
       />
       <Project
